@@ -1,0 +1,71 @@
+body{
+    background-color:lightgrey;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+}
+
+h1,h2,h3,header,main,footer{
+    text-align: center;
+}
+
+h1{
+    font-size: 4.5em;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: darkred;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2,h3{
+    font-size: 2em;
+}
+
+h3,.legende{
+    color: tomato;
+}
+h4{
+    font-size: 0.8em;
+}
+
+p{
+    text-align: left;
+}
+/*exeptionnelement le p du footer est au centre*/
+footer p{
+    text-align: center;
+}
+
+#content{
+    background-color:white;
+    margin: 5%;    
+}
+
+.logo{
+    width:120px;
+}
+
+.subtitle{  
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.2em; /*en rapport avec le em du parent (ici 5)*/
+    padding: 0.5em;
+}
+
+.marge{
+    /*background-color: violet; pour tester div marge*/
+    margin: 10%;
+}
+
+.lien_nom{
+    text-align: center;
+}
+
+.lien_nom a{
+    color: tomato;
+}
+
+.lien_nom a:hover{
+    color:lawngreen;
+}
